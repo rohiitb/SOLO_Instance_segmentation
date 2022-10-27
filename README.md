@@ -25,3 +25,15 @@ Following are the loss curves for training and validation:
   </tr>
 </table>
 
+<table>
+  <tr>
+      <td align = "center"> <img src="./Results/Validation_loss.JPG"> </td>
+      <td align = "center"> <img src="./Results/Validation_category_loss.JPG"> </td>
+      <td align = "center"> <img src="./Results/Validation_mask_loss.JPG"> </td>
+  </tr>
+  <tr>
+      <td align = "center"> Total Validation loss</td>
+      <td align = "center"> Focal loss (Category) for validation data </td>
+      <td align = "center"> Dice loss (Mask) for validation data </td>
+  </tr>
+</table>
