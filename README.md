@@ -8,6 +8,21 @@ The Feature pyramid network uses the Resnet50 backbone as the model architecture
 
 <img src="./Results/fpn_model.JPG" align = "center">
 
+# Original dataset visualization
+
+<b>Classes :</b> <br>
+  Blue - Vehicles<br>
+  Red - Animals<br>
+  Green - People
+  
+<table>
+  <tr>
+      <td align = "center"> <img src="./Results/o2.JPG"> </td>
+      <td align = "center"> <img src="./Results/o3.JPG"> </td>
+      <td align = "center"> <img src="./Results/o4.JPG"> </td>
+  </tr>
+</table>
+
 # Results
 
 Below are some examples of the predictions given by the model:
@@ -52,3 +67,5 @@ Following are the loss curves for training and validation:
       <td align = "center"> Dice loss (Mask) for validation data </td>
   </tr>
 </table>
+
+
