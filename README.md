@@ -77,7 +77,7 @@ Following are the loss curves for training and validation:
 * Category Threshold:  0.2
 * INS Threshold         : 0.5
 * IoU Threshold         : 0.3 
-* Learning rate         : 0.01 , 0.001 after epoch27, 0.0001 after epoch 34
+* Learning rate         : 0.01 , 0.001 after epoch 27, 0.0001 after epoch 34
 * Momentum              : 0.9
 * Weight Decay          : 0.0001
 * Num Epochs            : 45
