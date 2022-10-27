@@ -4,11 +4,11 @@ The project involved the implementation of the instance segmentation algorithm d
 Size is handled by detecting at different levels of Feature Pyramid Network. Each level of the feature pyramid contributes in producing a prediction. The smallest level of the Feature pyramid network predicts the large objects and their masks while the largest level predicts the small objects. <br>
 The Feature pyramid network uses the Resnet50 backbone as the model architecture.
 
-# Network architecture
+## Network architecture
 
 <img src="./Results/fpn_model.JPG" align = "center">
 
-# Original dataset visualization
+## Original dataset visualization
 
 <b>Classes :</b> <br>
   Blue - Vehicles<br>
@@ -23,7 +23,7 @@ The Feature pyramid network uses the Resnet50 backbone as the model architecture
   </tr>
 </table>
 
-# Results
+## Results
 
 Below are some examples of the predictions given by the model:
 
@@ -39,6 +39,8 @@ Below are some examples of the predictions given by the model:
       <td align = "center"> <img src="./Results/first5.png"> </td>
   </tr>
 </table>
+
+## Loss Curves
 
 Following are the loss curves for training and validation:
 
@@ -68,4 +70,15 @@ Following are the loss curves for training and validation:
   </tr>
 </table>
 
+## Hyperparameters 
+* Focal Loss
+    * alpha = 0.25, gamma = 2
+* Mask Loss weight : 3
+* Category Threshold:  0.2
+* INS Threshold         : 0.5
+* IoU Threshold         : 0.3 
+* Learning rate         : 0.01 , 0.001 after epoch27, 0.0001 after epoch 34
+* Momentum              : 0.9
+* Weight Decay          : 0.0001
+* Num Epochs            : 45
 
