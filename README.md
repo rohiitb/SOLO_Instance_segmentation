@@ -12,3 +12,16 @@ The Feature pyramid network uses the Resnet50 backbone as the model architecture
 
 Following are the loss curves for training and validation:
 
+<table>
+  <tr>
+      <td align = "center"> <img src="./Results/Training_loss.JPG"> </td>
+      <td align = "center"> <img src="./Results/Training_focal_loss.JPG"> </td>
+      <td align = "center"> <img src="./Results/Training_mask_loss.JPG"> </td>
+  </tr>
+  <tr>
+      <td align = "center"> Total training loss</td>
+      <td align = "center"> Focal loss (Category) for training data </td>
+      <td align = "center"> Dice loss (Mask) for training data </td>
+  </tr>
+</table>
+
