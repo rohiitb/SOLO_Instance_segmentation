@@ -10,6 +10,21 @@ The Feature pyramid network uses the Resnet50 backbone as the model architecture
 
 # Results
 
+Below are some examples of the predictions given by the model:
+
+<table>
+  <tr>
+      <td align = "center"> <img src="./Results/first0.png"> </td>
+      <td align = "center"> <img src="./Results/first1.png"> </td>
+      <td align = "center"> <img src="./Results/first2.png"> </td>
+  </tr>
+  <tr>
+      <td align = "center"> <img src="./Results/first3.png"></td>
+      <td align = "center"> <img src="./Results/first4.png"> </td>
+      <td align = "center"> <img src="./Results/first5.png"> </td>
+  </tr>
+</table>
+
 Following are the loss curves for training and validation:
 
 <table>
