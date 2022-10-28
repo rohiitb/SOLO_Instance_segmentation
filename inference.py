@@ -39,7 +39,6 @@ def MatrixNMS(sorted_masks, sorted_scores, method='gauss', gauss_sigma=0.5):
 
 def visualize_nms_image(img_orig, ff_msks, classes,thresh=0.2, transp=0.2):
   manipulated_mask = torch.where(ff_msks>thresh, 1, 0)
-  classes = torch.tensor([0,2,2,1,0])
   edit_im = img_orig.detach().cpu().numpy().copy()
 
   for x in range(len(manipulated_mask[0])):
